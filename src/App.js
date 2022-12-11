@@ -1,4 +1,4 @@
-import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses";
 
 function App() {
     const expenses = [
@@ -6,14 +6,12 @@ function App() {
         {title: 'Car Insurance 1', amount: 24.67, date: new Date(2022, 4, 5)},
         {title: 'Car Insurance 2', amount: 314.67, date: new Date(2022, 2, 24)},
         {title: 'Car Insurance 3', amount: 564.67, date: new Date(2022, 11, 14)},
+        {title: 'Car Insurance 4', amount: 512.67, date: new Date(2022, 10, 24)},
+        {title: 'Car Insurance 5', amount: 374.67, date: new Date(2022, 9, 5)},
+        {title: 'Car Insurance 6', amount: 123.17, date: new Date(2022, 8, 17)},
     ]
     return (
-        <div>
-            <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}/>
-            <ExpenseItem title={expenses[1].title} amount={expenses[1].amount} date={expenses[1].date}/>
-            <ExpenseItem title={expenses[2].title} amount={expenses[2].amount} date={expenses[2].date}/>
-            <ExpenseItem title={expenses[3].title} amount={expenses[3].amount} date={expenses[3].date}/>
-        </div>
+        <Expenses expenses={expenses}/>
     );
 }
 
