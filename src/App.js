@@ -7,7 +7,7 @@ const INITIAL_DUMMY_EXPENSES = [
     {id: 'id3', title: 'Car Insurance 2', amount: 314.67, date: new Date(2022, 2, 24)},
     {id: 'id4', title: 'Car Insurance 3', amount: 564.67, date: new Date(2020, 11, 14)},
     {id: 'id5', title: 'Car Insurance 4', amount: 512.67, date: new Date(2020, 10, 24)},
-    {id: 'id6', title: 'Car Insurance 5', amount: 374.67, date: new Date(2019, 9, 5)},
+    {id: 'id6', title: 'Car Insurance 5', amount: 374.67, date: new Date(2020, 9, 5)},
     {id: 'id7', title: 'Car Insurance 6', amount: 123.17, date: new Date(2021, 8, 17)},
 ];
 function App() {
